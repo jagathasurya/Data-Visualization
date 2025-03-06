@@ -1,0 +1,15 @@
+Heatmap is defined as a graphical representation of data using colors to visualize the value of the matrix.
+Heatmap is also defined by the name of the shading matrix.
+Heatmaps in Seaborn can be plotted by using the seaborn.heatmap() function.
+It Heatmap is also defined by the name of the shading matrix.
+Heatmaps in Seaborn can be plotted by using the seaborn.heatmap() function.
+There are some of the important parameters.
+data: 2D dataset that can be coerced into an ndarray.
+vmin, vmax: Values to anchor the colormap, otherwise they are inferred from the data and other keyword arguments.
+cmap: The mapping from data values to color space.
+center: The value at which to center the colormap when plotting divergent data.
+annot: If True, write the data value in each cell.
+fmt: String formatting code to use when adding annotations.
+linewidths: Width of the lines that will divide each cell.
+linecolor: Color of the lines that will divide each cell.
+cbar: Whether to draw a colorbar.
